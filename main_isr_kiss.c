@@ -1,6 +1,6 @@
 #include "asf.h"
 
-int g_cnt = 0;
+volatile int g_cnt = 0;
 char g_str[10];
 int batata;
 
