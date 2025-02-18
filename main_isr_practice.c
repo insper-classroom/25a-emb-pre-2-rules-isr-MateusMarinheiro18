@@ -30,7 +30,7 @@ int main() {
     sleep_ms(1);
   }
   
-  volatile int capture_flag = 0;
+  int capture_flag = 0;
   int a;
   while (1) {
     if (btn_flag) {
